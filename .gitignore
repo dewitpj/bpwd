@@ -5,3 +5,4 @@
 src/bpwd_tst
 bin/*
 Makefile
+include/config.h
