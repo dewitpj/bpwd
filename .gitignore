@@ -3,3 +3,5 @@
 *.ko
 *o.cmd
 src/bpwd_tst
+bin/*
+Makefile

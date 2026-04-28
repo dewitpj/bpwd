@@ -133,6 +133,11 @@ static CRC_TYPE crcTbl[ 256 ];
 /* Scan i2c bus and print out device */
 void scan_i2c_bus( int fd );
 
+/* Need to forward declare the functions due to an update in gcc */
+int arp_i2c_bus (int fd);
+int get_information (int fd);
+int probe_smbus_controller (void);
+
 #ifdef LINUX_KERNEL_DRIVER
 /* Enable use of the PEC */
 void i2c_pec_enable( int fd );
