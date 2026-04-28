@@ -88,6 +88,7 @@ struct i2c_smbus_ioctl_data {
 /* local include file */
 #include "../include/bp_def.h"
 #include "../include/crc8.h"
+#include <bits/getopt_core.h>
 
 /* pci configuration space definition */
 #define PCI_INDEX_PORT 	0xCF8

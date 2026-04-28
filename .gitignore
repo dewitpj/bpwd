@@ -4,5 +4,10 @@
 *o.cmd
 src/bpwd_tst
 bin/*
+<<<<<<< HEAD
 Makefile
 include/config.h
+=======
+include/config.h
+Makefile
+>>>>>>> d06fa6f (Match)
